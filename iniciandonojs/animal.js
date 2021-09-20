@@ -4,7 +4,7 @@ class Animal {
     }
 
     falar() {
-        console.log(this.nome + ' fez barulho.')
+        console.log(this.nome + " fez barulho.")
     }
 
 }
