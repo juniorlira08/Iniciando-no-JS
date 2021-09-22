@@ -1,8 +1,5 @@
-const generico = new Animal('Animal genérico')
-generico.falar()
+const axios = require('axios')
 
-const gato = new Gato('Gato')
-gato.falar()
-
-const cachorro = new Cachorro('Cachorro')
-cachorro.falar()
+axios.get('https://google.com').then(function(result){
+    console.log(result.data)
+})
